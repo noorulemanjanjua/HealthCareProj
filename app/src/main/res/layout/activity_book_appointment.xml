@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor Details"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/appname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor Name" />
+
+    <EditText
+        android:id="@+id/appaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor Address" />
+
+    <EditText
+        android:id="@+id/appcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor Contact" />
+
+    <EditText
+        android:id="@+id/appfees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Consultation Fees" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Name" />
+
+    <EditText
+        android:id="@+id/user_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Contact" />
+
+    <Button
+        android:id="@+id/buttonappdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date" />
+
+    <Button
+        android:id="@+id/buttonapptime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Time" />
+
+    <Button
+        android:id="@+id/buttonbookappointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Appointment" />
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="bold"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".HealthArticlesActivity">
+
+    <TextView
+        android:id="@+id/textViewhadtitle"
+        style="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24_7 Healthcare"
+        android:textColor="#A446B5"
+        android:textColorLink="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.045"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textViewODo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Health Articles"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+
+        app:layout_constraintTop_toBottomOf="@+id/textViewhadtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.01999998"
+        />
+
+
+    <ListView
+        android:id="@+id/listViewHA"
+        android:layout_width="344dp"
+        android:layout_height="523dp"
+        android:layout_marginStart="-40dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="-40dp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewODo"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/textViewODo"
+        app:layout_constraintTop_toBottomOf="@+id/textViewODo"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        />
+
+    <Button
+        android:id="@+id/buttonHADBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/white"
+        app:strokeColor="#6F0C80"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintVertical_bias="0.69"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
